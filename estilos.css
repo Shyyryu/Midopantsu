@@ -14,9 +14,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vh;
+    width: 100%;
     background-color: gray;
-    max-width: 100%;
+    max-width: 640px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
