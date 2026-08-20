@@ -2,8 +2,11 @@
 
 body{
     background-image: url(recursos/Background.jpg);
-    background-size: cover;
-    text-align: center;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover; 
+    min-height: 100vh; 
+    text-align: center; 
 }
 
 #general{
@@ -35,7 +38,6 @@ body{
     height: auto;
     font-family: "Rubik Spray Paint";
 }
-/* Changa One */
 
 .links #yt{
 margin-left: 12px;
