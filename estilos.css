@@ -4,9 +4,10 @@ body{
     background-image: url(recursos/Background.jpg);
     background-repeat: no-repeat; 
     background-position: center center; 
-    background-size: cover; 
+    background-size: cover;
     min-height: 100vh; 
     text-align: center; 
+    min-height: 97vh;
 }
 
 #general{
@@ -87,4 +88,27 @@ a:hover{
 #random img{
 margin-right: auto; 
 margin-left: auto;
+}
+
+#artbt,
+#artbt[type="button"],
+#artbt[type="submit"] {
+  appearance: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  width: 6.5rem;
+  height: 3.3rem;
+  border: 0.2rem solid white;
+  border-radius: 5%;
+  background: rgb(223, 216, 177);
+  color: rgb(170, 121, 29);
+  margin-top: 1rem;
+  white-space: normal;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "Rubik Spray Paint";
+}
+
+#artbt:hover{
+    background-color: rgb(172, 165, 128);
 }

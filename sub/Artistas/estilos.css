@@ -1,0 +1,169 @@
+body{
+    background-image: url(recursos/Background.jpg);
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover;
+    min-height: 97vh;
+}
+
+.artista1{
+    list-style: none;
+    padding: 0px;
+    background-color: bisque;
+    width: 73.5rem;
+    margin: auto;
+    font-family: "Rubik Spray Paint";
+}
+
+.artista1 li a{
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+}
+
+.artista1 li{
+    display: inline-block;
+    text-align: center;
+}
+
+.artista1 li a:hover{
+    background: red;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: gray;
+    max-width: 73rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border-radius: 15px;
+    border: 5px solid white;
+}
+
+[hidden]{
+    display: none;
+}
+
+.links ul{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: -0.5rem;
+    margin-left: 4rem;
+}
+
+.links img{
+    width: 1rem;
+    height: 1rem;
+    margin-bottom: -0.25rem;
+    margin-left: -21.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(73, 171, 250);
+}
+
+a:hover{
+    color: rgb(159, 166, 255);
+}
+
+h1{
+    font-family: "Rubik Spray Paint";
+    font-size: xx-large;
+}
+
+.text1{
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;
+    margin-left: -15rem;
+    font-family: "Rubik Spray Paint";
+    font-size: xx-large;
+}
+
+.text2{
+    margin-top: -9rem;
+    margin-bottom: 1rem;
+    margin-left: 40rem;
+    font-family: "Rubik Spray Paint";
+    font-size: x-large;
+}
+
+.art{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: fit-content;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  margin-left: 40rem;
+}
+
+.art img{
+    width: 13.75rem;
+    height: 7.7rem;
+}
+
+.artimg{
+display: block;
+}
+
+li button,
+li input[type="button"],
+li input[type="submit"] {
+  appearance: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  width: 6.5rem;
+  height: 3.3rem;
+  border: 0.2rem solid white;
+  border-radius: 5%;
+  background: rgb(224, 168, 95);
+  color: rgb(197, 77, 77);
+  margin-bottom: 0.1rem;
+  white-space: normal;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-family: "Rubik Spray Paint";
+}
+
+li button:hover {
+    background: rgb(194, 136, 61);
+}
+
+.artista1{
+  background-color: transparent;
+}
+
+#noclick{
+    pointer-events: none;
+     user-select: none;
+  -webkit-user-select: none;
+}
+
+#home,
+#home[type="button"],
+#home[type="submit"] {
+  appearance: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  width: 6.5rem;
+  height: 3.3rem;
+  border: 0.2rem solid white;
+  border-radius: 5%;
+  background: rgb(223, 216, 177);
+  color: rgb(170, 121, 29);
+  margin-left: 54rem;
+  margin-top: 0.1rem;
+  white-space: normal;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: "Rubik Spray Paint";
+}
+
+#home:hover{
+    background-color: rgb(172, 165, 128);
+}
