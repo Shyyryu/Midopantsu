@@ -34,8 +34,8 @@ let morado= {
 let negro= {
     nombre : "black",
     archivo : "recursos/Pantsu/cnegro.jpg",
-    ancho : "",
-    alto : ""
+    ancho : "304px",
+    alto : "171px"
 }
 
 let hiloAzul= {
